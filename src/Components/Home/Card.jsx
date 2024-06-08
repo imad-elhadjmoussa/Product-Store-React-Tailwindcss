@@ -10,7 +10,7 @@ export const Card = ({ img, title, price, rate, view }) => {
             className='flex flex-col h-full justify-between gap-2 items-start rounded-sm border-[0.5px] border-gray-200 shadow-lg cursor-pointer p-3'
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
+            transition={{ delay: 0.5 }}
             viewport={{ once: true, amount: "some" }}
         >
             <div className=' flex items-center justify-center w-full '>

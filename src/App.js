@@ -9,17 +9,13 @@ function App() {
 
 
   return (
-    <Router>
       <div className="">
         {/* Navbar */}
         <Navbar handelInput={handelInput} />
 
-        <Routes>
-          <Route path="/" element={<Main input={input} />} />
-        </Routes>
+        <Main input={input}  />
 
       </div>
-    </Router>
   );
 }
 
