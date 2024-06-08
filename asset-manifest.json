@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Product-Store-React-Tailwindcss/static/css/main.d9e925ae.css",
+    "main.js": "/Product-Store-React-Tailwindcss/static/js/main.0f340d96.js",
+    "static/js/787.287bb187.chunk.js": "/Product-Store-React-Tailwindcss/static/js/787.287bb187.chunk.js",
+    "static/media/Animation - 1717865884271.gif": "/Product-Store-React-Tailwindcss/static/media/Animation - 1717865884271.d39dfb8e6bf7586e9d75.gif",
+    "static/media/star-sharp-svgrepo-com.svg": "/Product-Store-React-Tailwindcss/static/media/star-sharp-svgrepo-com.dad7d3e3e2fb4963c90bf74238dc1574.svg",
+    "index.html": "/Product-Store-React-Tailwindcss/index.html",
+    "static/media/view-svgrepo-com.svg": "/Product-Store-React-Tailwindcss/static/media/view-svgrepo-com.df7efb1dd0ede3dbac5fb17e6bcb566c.svg",
+    "main.d9e925ae.css.map": "/Product-Store-React-Tailwindcss/static/css/main.d9e925ae.css.map",
+    "main.0f340d96.js.map": "/Product-Store-React-Tailwindcss/static/js/main.0f340d96.js.map",
+    "787.287bb187.chunk.js.map": "/Product-Store-React-Tailwindcss/static/js/787.287bb187.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9e925ae.css",
+    "static/js/main.0f340d96.js"
+  ]
+}
