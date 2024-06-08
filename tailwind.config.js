@@ -9,7 +9,16 @@ module.exports = {
       md:"900px",
       lg:"1200px"
     },
-    extend: {},
+    extend: {
+      colors:{
+        "primary-500":"#20a960 ",
+        "primary-800":"#0e5733",
+        "primary-400":"#60cd8f",
+      },
+      fontFamily:{
+        "bebas-neue":["Bebas Neue", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }

@@ -1,7 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-input{
+input {
     accent-color: red;
+}
+
+.btn-style1 {
+    @apply px-6 py-[7px] bg-primary-400 rounded-sm hover:bg-primary-500 transition duration-500 cursor-pointer text-white font-semibold;
+}
+
+/* .btn-style1:focus{
+    background-color: #0e5733;
+} */
+
+.hoverEffect {
+    @apply transition-all duration-300 ease-linear
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 3px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding:  7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 7px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
 }
